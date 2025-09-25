@@ -38,6 +38,13 @@ print(f"In 10 year, {kname} will be {kage + 10} years old.")
 print(f"{sport.capitalize()} is {kname}'s favourite game.")
 print(f"{kname} once tried playing {sport} professionally")
 
+print ("")
+
+name = input("What is your name? ")
+age = int(input("How old are you? "))
+food = input("What is your favourite food? ")
+print(f"{name}, Next year you will {age + 1}. ")
+print(f"{food.capitalize()} is your favourite food! ")
 
 # Notice there's lots of repetition!
 # If we want to change Alice's age or favourite food, we'd have to change it in many places.
