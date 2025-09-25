@@ -5,21 +5,46 @@
 # Your task: Use variables to make the code shorter and easier to change!
 
 # Step 1: Run this program as it is first:
-print("Hello, Alice!")
-print("Alice is 25 years old.")
-print("In 5 years, Alice will be 30 years old.")
-print("Alice really likes pizza.")
-print("Pizza is Alice's favourite food!")
+name = "Alice"
+favouritefood = "pizza"
+aliceAge = 25
+print(f"Hello, {name}!")
+print(f"{name} is {aliceAge} years old.")
+print(f"In 5 years, {name} will be {aliceAge + 5} years old.")
+print(f"{name} really likes pizza.")
+print(f"{favouritefood.capitalize()} is {name}'s favourite food!")
 
 # This will just add an empty line for space
 # Please don't touch this
 print("")
 
-print("Hello, Bob!")
-print("Bob is 30 years old.")
-print("In 5 years, Bob will be 35 years old.")
-print("Bob really likes noodles.")
-print("Noodles is Bob's favourite food!")
+bname = "Bob"
+bfood = "noodles"
+bobAge = 30
+print(f"Hello, {bname}!")
+print(f"{bname} is {bobAge} years old.")
+print(f"In 5 years, {name} will be {bobAge + 5} years old.")
+print(f"{bname} really likes {bfood}.")
+print(f"{bfood.capitalize()} is {bname}'s favourite food!")
+
+print("")
+
+kname = "Maleek"
+kage = 32
+sport = "football"
+print(f"People call me {kname}")
+print(f"{kname} is {kage} years old.")
+print(f"In 10 year, {kname} will be {kage + 10} years old.")
+print(f"{sport.capitalize()} is {kname}'s favourite game.")
+print(f"{kname} once tried playing {sport} professionally")
+
+print ("")
+
+name = input("What is your name? ")
+age = int(input("How old are you? "))
+food = input("What is your favourite food? ")
+print(f"{name}, Next year you will {age + 1}. ")
+print(f"{food.capitalize()} is your favourite food! ")
 
 # Notice there's lots of repetition!
 # If we want to change Alice's age or favourite food, we'd have to change it in many places.
